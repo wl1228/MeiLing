@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <!--
+        订单号，计划总数量、预装，（总装、在生产数量），（交库，已完成数量），完成率  ，交货时间，交货预警，订单日计划数据-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="日计划完成统计表"
+                android:textColor="#ff0000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="订单号" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="计划数量" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="预装数量" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="总装数量" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="完成数量" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="完成率" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="完成状态" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/fragment3_listview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="停线记录"
+                android:textColor="#ff0000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--   runtime：当天产线运行的时间（时间戳）
+                   code：产线编码
+                   lineState：产线当前状态
+                   name：产线名称
+                   id：产线日志记录表ID-->
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="产线编码" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="产线名称" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="运行时长" />
+
+                <TextView
+                    style="@style/textview_query_style"
+                    android:text="当前状态" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/fragment3_listview2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 产量统计-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="产量统计表"
+        android:textColor="#ff0000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment3_barchart1"
+            style="@style/weld_dynamic_graph_chart" />
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment3_barchart2"
+            style="@style/weld_dynamic_graph_chart" />
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment3_barchart3"
+            style="@style/weld_dynamic_graph_chart" />
+    </LinearLayout>
+</LinearLayout>

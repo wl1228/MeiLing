@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QRCode</string>
+    <string name="finishedCode">成品码</string>
+    <string name="QRcode">二维码</string>
+    <string name="status">状态</string>
+    <string name="printed">已打印</string>
+    <string name="not_print">未打印</string>
+    <string name="printing">打印中</string>
+    <string name="time">时间</string>
+    <string name="wait">请等待本次扫描处理完毕在进行下一次扫描</string>
+</resources>

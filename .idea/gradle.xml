@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.4" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CircleMenuLib" />
+            <option value="$PROJECT_DIR$/androidbootstrap" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/comapi" />
+            <option value="$PROJECT_DIR$/equipmonitor" />
+            <option value="$PROJECT_DIR$/herilyalertdialog" />
+            <option value="$PROJECT_DIR$/inspection" />
+            <option value="$PROJECT_DIR$/instruction" />
+            <option value="$PROJECT_DIR$/linestorage" />
+            <option value="$PROJECT_DIR$/logapi" />
+            <option value="$PROJECT_DIR$/logshow" />
+            <option value="$PROJECT_DIR$/matrtials" />
+            <option value="$PROJECT_DIR$/mpchartapi" />
+            <option value="$PROJECT_DIR$/onoffline" />
+            <option value="$PROJECT_DIR$/opcuaapi" />
+            <option value="$PROJECT_DIR$/progresswheel" />
+            <option value="$PROJECT_DIR$/qrcode" />
+            <option value="$PROJECT_DIR$/scan" />
+            <option value="$PROJECT_DIR$/spectaculars" />
+            <option value="$PROJECT_DIR$/supertoasts" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

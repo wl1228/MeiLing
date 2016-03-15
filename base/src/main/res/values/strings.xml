@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Base</string>
+
+    <!-- 串口扫描信息-->
+    <string name="waiting_scan">等待扫描</string>
+    <string name="com_start_success">打开串口成功</string>
+    <string name="com_start_fail_security">打开串口失败:没有串口读/写权限!</string>
+    <string name="com_start_fail_io">打开串口失败:未知错误!</string>
+    <string name="com_start_fail_param">打开串口失败:参数错误!</string>
+    <string name="scan_data">二维码信息：</string>
+</resources>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/weld_imageveiw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/meiling_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0e4bb5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dip"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/weld"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextClock
+                android:id="@+id/weldClock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="right|center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 管理数据-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <!-- 设备名称-->
+                <TextView
+                    style="@style/weld_static_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:text="@string/device_name" />
+
+                <TextView
+                    android:id="@+id/device_name"
+                    style="@style/weld_static_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="大冰箱项目超声波焊接机" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <!-- 岗位-->
+                <TextView
+                    style="@style/weld_static_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/post" />
+
+                <TextView
+                    android:id="@+id/post"
+                    style="@style/weld_static_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="灌氟封口焊接" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <!-- 前置工序-->
+                <TextView
+                    style="@style/weld_static_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pre_step" />
+
+                <TextView
+                    android:id="@+id/pre_step"
+                    style="@style/weld_static_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="灌氟" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <!-- 后置工序-->
+                <TextView
+                    style="@style/weld_static_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/af_step" />
+
+                <TextView
+                    android:id="@+id/af_step"
+                    style="@style/weld_static_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="冷藏风罩安装" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <!-- 设置状态-->
+                <TextView
+                    style="@style/weld_static_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/equip_status" />
+
+                <TextView
+                    android:id="@+id/equip_status"
+                    style="@style/weld_static_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运行中"
+                    android:textColor="@color/green" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 检修数据-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- 检修计划-->
+            <TextView
+
+                style="@style/weld_static_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_plan" />
+
+            <TextView
+                android:id="@+id/check_plan"
+                style="@style/weld_static_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_plan_value" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- 检修时间-->
+            <TextView
+                style="@style/weld_static_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_time" />
+
+            <TextView
+                android:id="@+id/check_time"
+                style="@style/weld_static_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_time_value" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- 检修内容-->
+            <TextView
+                style="@style/weld_static_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_content" />
+
+            <TextView
+                android:id="@+id/check_content"
+                style="@style/weld_static_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_content_value" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/weld_static_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/fitters"
+                style="@style/weld_static_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/weld_static_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/inspection_station"
+                style="@style/weld_static_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            style="@style/weld_static_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="点检信息：" />
+
+        <TextView
+            android:id="@+id/show_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/blue"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="查看点检"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <!-- 工艺数据 -->
+    <LinearLayout
+        style="@style/weld_dynamic_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- 焊接壁厚-->
+            <TextView
+                style="@style/weld_dynamic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weld_thick" />
+
+            <TextView
+                android:id="@+id/weld_thick"
+                style="@style/weld_dynamic_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/weld_dynamic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thick_unit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- 焊接时间-->
+            <TextView
+                style="@style/weld_dynamic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weld_time" />
+
+            <TextView
+                android:id="@+id/weld_time"
+                style="@style/weld_dynamic_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/weld_dynamic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_unit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- 焊接能量-->
+            <TextView
+                style="@style/weld_dynamic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/weld_power"
+                style="@style/weld_dynamic_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/weld_dynamic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- 动态数据及图形-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f6f6ee"
+        android:orientation="horizontal">
+
+        <!-- 焊机厚壁-->
+        <LinearLayout
+            style="@style/weld_dynamic_graph_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/thickDataGraph"
+                style="@style/weld_dynamic_graph_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ListView
+                android:id="@+id/thickDataList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+
+        <!-- 焊接时间-->
+        <LinearLayout
+            style="@style/weld_dynamic_graph_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/timeDataGraph"
+                style="@style/weld_dynamic_graph_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ListView
+                android:id="@+id/timeDataList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+
+        <!-- 焊接能量-->
+        <LinearLayout
+            style="@style/weld_dynamic_graph_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/powerDataGraph"
+                style="@style/weld_dynamic_graph_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ListView
+                android:id="@+id/powerDataList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+
+
+        <!-- 有效利用率-->
+        <LinearLayout
+            style="@style/weld_dynamic_graph_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/timeScaleGraph"
+                style="@style/weld_dynamic_graph_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ListView
+                android:id="@+id/timeScaleList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

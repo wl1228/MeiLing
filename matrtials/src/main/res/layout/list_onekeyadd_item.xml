@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/material_code"
+        style="@style/textview_indent_style"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/material_name"
+        style="@style/textview_indent_style"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/material_number"
+        style="@style/textview_indent_style"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/seat_id"
+        style="@style/textview_indent_style"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/submit_btn"
+        style="@style/textview_indent_style"
+        android:text="@string/submit"
+        android:layout_weight="1"/>
+</LinearLayout>

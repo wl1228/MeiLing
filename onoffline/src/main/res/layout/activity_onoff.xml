@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="30dp"
+            android:textColor="#0000ff"
+            android:text="退出"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/serial_number"
+            android:textSize="@dimen/offline_reson_text_size"/>
+        <EditText
+            android:id="@+id/serial_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/offline_reson_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/operation"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/offline_reson_text_size"/>
+        <Spinner
+            android:id="@+id/operation"
+            android:entries="@array/operation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/offline_reson_text_size"
+            android:gravity="left"
+            android:textColor="@color/colorBlack"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_code"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/offline_reson_text_size"/>
+        <EditText
+            android:id="@+id/post_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/offline_reson_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:id="@+id/resonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_code"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/offline_reson_text_size"/>
+        <EditText
+            android:id="@+id/reason"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/off_line_reson"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/offline_reson_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/submit_onoff_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/btn_margin_right"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/submit"/>
+    </LinearLayout>
+
+</LinearLayout>

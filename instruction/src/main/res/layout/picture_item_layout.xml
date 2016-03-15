@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#99ffffff"
+    android:paddingBottom="50dp"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/big_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="标题1" />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/before"
+            style="@style/pic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_gravity="left|center_vertical"
+            android:text="←"
+            android:padding="50dp"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="800dip"
+            android:layout_height="800dip"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/next"
+            style="@style/pic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_gravity="right|center_vertical"
+            android:padding="50dp"
+            android:text="→"/>
+
+    </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/detail"
+            style="@style/big_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="内容。。。。。" />
+
+
+
+
+</LinearLayout>

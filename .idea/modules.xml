@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CircleMenuLib/CircleMenuLib.iml" filepath="$PROJECT_DIR$/CircleMenuLib/CircleMenuLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeiLing.iml" filepath="$PROJECT_DIR$/MeiLing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidbootstrap/androidbootstrap.iml" filepath="$PROJECT_DIR$/androidbootstrap/androidbootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comapi/comapi.iml" filepath="$PROJECT_DIR$/comapi/comapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/equipmonitor/equipmonitor.iml" filepath="$PROJECT_DIR$/equipmonitor/equipmonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/herilyalertdialog/herilyalertdialog.iml" filepath="$PROJECT_DIR$/herilyalertdialog/herilyalertdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inspection/inspection.iml" filepath="$PROJECT_DIR$/inspection/inspection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instruction/instruction.iml" filepath="$PROJECT_DIR$/instruction/instruction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linestorage/linestorage.iml" filepath="$PROJECT_DIR$/linestorage/linestorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logapi/logapi.iml" filepath="$PROJECT_DIR$/logapi/logapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logshow/logshow.iml" filepath="$PROJECT_DIR$/logshow/logshow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matrtials/matrtials.iml" filepath="$PROJECT_DIR$/matrtials/matrtials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mpchartapi/mpchartapi.iml" filepath="$PROJECT_DIR$/mpchartapi/mpchartapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onoffline/onoffline.iml" filepath="$PROJECT_DIR$/onoffline/onoffline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opcuaapi/opcuaapi.iml" filepath="$PROJECT_DIR$/opcuaapi/opcuaapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progresswheel/progresswheel.iml" filepath="$PROJECT_DIR$/progresswheel/progresswheel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qrcode/qrcode.iml" filepath="$PROJECT_DIR$/qrcode/qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scan/scan.iml" filepath="$PROJECT_DIR$/scan/scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spectaculars/spectaculars.iml" filepath="$PROJECT_DIR$/spectaculars/spectaculars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supertoasts/supertoasts.iml" filepath="$PROJECT_DIR$/supertoasts/supertoasts.iml" />
+    </modules>
+  </component>
+</project>

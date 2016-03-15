@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mingjiang.kouzeping.spectaculars.SpectacularsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#0e4bb5">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="#ffffff"
+                android:src="@drawable/ic_meiling_logo"/>
+            <HorizontalScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/rg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb1"
+                            style="@style/radio_style"
+                            android:checked="true"
+                            android:text="中间库" />
+
+                        <RadioButton
+                            android:id="@+id/rb2"
+                            style="@style/radio_style"
+                            android:text="线边库" />
+
+                        <RadioButton
+                            android:id="@+id/rb3"
+                            style="@style/radio_style"
+                            android:text="一键入库" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/indicator"
+                        android:layout_width="@dimen/item_width"
+                        android:layout_height="5dp"
+                        android:background="#00ff00" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

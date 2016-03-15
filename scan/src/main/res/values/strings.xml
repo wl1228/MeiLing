@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- 欢迎界面-->
+    <string name = "welcome_system">欢迎使用明匠智能系统</string>
+    <string name="scan_code_system">请扫描岗位二维码...</string>
+    <string name="scan_user_system">请扫描用户工牌...</string>
+    <string name="tip_title">数据加载</string>
+    <string name="load_data_tip">正在加载服务端数据，请稍候...</string>
+
+</resources>

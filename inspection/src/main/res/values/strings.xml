@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="welcome">欢迎使用点检记录系统</string>
+    <!-- 欢迎界面-->
+    <string name="scan_code">请扫描工牌二维码...</string>
+
+    <string name="app_name">Inspection</string>
+
+    <string name="action_settings">Settings</string>
+    welcome_title
+    <string name="welcome_title">欢迎</string>
+
+    <string name="welcome_content" />
+
+    <string name="com_start_success">打开串口成功</string>
+    <string name="com_start_fail_security">打开串口失败:没有串口读/写权限!</string>
+    <string name="com_start_fail_io">打开串口失败:未知错误!</string>
+    <string name="com_start_fail_param">打开串口失败:参数错误!</string>
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EquipMonitor</string>
+    <string name="weld">超声波焊接机</string>
+    <string name="perfusion_machine">灌注机</string>
+    <!-- 真空焊接机信息 -->
+    <string name="device_name">设备名称:</string>
+    <string name="post">岗位:</string>
+    <string name="pre_step">前置工序:</string>
+    <string name="af_step">后置工序:</string>
+    <string name="equip_status">设备状态:</string>
+
+    <!-- 检修-->
+    <string name="check_plan">检修计划:</string>
+    <string name="check_time">检修时间:</string>
+    <string name="check_content">检修内容:</string>
+
+    <!-- 检修测试数据-->
+    <string name="check_plan_value">无</string>
+    <string name="check_time_value">无</string>
+    <string name="check_content_value">无</string>
+
+    <string name="product_number">产品号:</string>
+    <string name="order_number">订单号:</string>
+    <string name="step">工序:</string>
+
+    <string name="material_code">物料代码:</string>
+    <string name="material_name">物料名称:</string>
+    <string name="material_specification">物料规格:</string>
+    <string name="supplier">供应商:</string>
+    <string name="fitters">装配工:</string>
+    <string name="inspection_station">检测工:</string>
+    <string name="results">质检结果:</string>
+    <string name="device_number">设备号:</string>
+
+
+
+
+    <string name="tube_code">管子编码：</string>
+    <string name="tube_diameter">管子直径：</string>
+    <string name="tube_thick">管子壁厚：</string>
+    <string name="counter">计数器：</string>
+
+    <string name="weld_thick">焊接壁厚：</string>
+    <string name="weld_time">焊接时间：</string>
+    <string name="weld_power">焊接能量：</string>
+
+    <string name="thick_unit">mm</string>
+    <string name="time_unit">s</string>
+    <string name="power_unit">Ws</string>
+
+    <!-- 灌注机信息-->
+
+    <string name="welcome">欢迎使用明匠智能系统，您当前使用的功能是：设备监控系统</string>
+    <string name="scan_code">请扫描二维码登录...</string>
+
+    <!-- 串口扫描信息-->
+    <string name="waiting_scan">等待扫描</string>
+    <string name="scan_data">二维码信息：</string>
+    <string name="part">部 件 清 单</string>
+    <string name="protectRequirement">防 护 要 点</string>
+    <string name="industryHighlight">工 艺 要 求</string>
+    <string name="useTool">工 具 / 工 装</string>
+    <string name="precautionTtile">上岗安全须知及班前班后注意事项</string>
+    <string name="operationStap">操作步骤及作简图</string>
+</resources>

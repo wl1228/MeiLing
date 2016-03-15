@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#cccccc"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/fragment4_textveiw1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="无筛选条件(默认显示全部物料)"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/fragment4_button_pageup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一页"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fragment4_textview_currentpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第1/1页"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/fragment4_button_pagedown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一页"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment4_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物料编码:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/fragment4_edittext1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="不筛选"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物料名称:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/fragment4_edittext2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="不筛选"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="库位编号:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/fragment4_edittext3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="不筛选"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="库区编号:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/fragment4_edittext4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="不筛选"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="页面条数:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/fragment4_edittext5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="默认为20条"
+                android:inputType="number"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="页码:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/fragment4_edittext6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="默认从第一页开始"
+                android:inputType="number"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fragment4_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="15dp"
+                android:text="确定"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/fragment4_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="15dp"
+                android:text="清空"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+    "material_name": 物料名称,
+    "material_id": 物料编码,
+    "id": ID
+    "seat_id": 库位编号（可点击查看该库位信息（容量、属性、物存类型）==>可查看库位对应库区信息（属性、状态））
+    "number": 库存数,
+    "safety_stock": 安全库存数,
+    "shortage": 库存缺量,
+    "safety": 是否为安全库存（True or False），
+     -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="2"
+            style="@style/textview_query_style"
+            android:text="物料名称" />
+
+        <TextView
+            style="@style/textview_query_style"
+            android:text="物料编码" />
+
+        <TextView
+            style="@style/textview_query_style"
+            android:text="ID" />
+
+        <TextView
+            style="@style/textview_query_style"
+            android:text="库位编号" />
+        <TextView
+            style="@style/textview_query_style"
+            android:text="库存数" />
+
+        <TextView
+            style="@style/textview_query_style"
+            android:text="安全库存数" />
+        <TextView
+            style="@style/textview_query_style"
+            android:text="库存缺量" />
+
+        <TextView
+            style="@style/textview_query_style"
+            android:text="安全库存" />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/fragment4_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

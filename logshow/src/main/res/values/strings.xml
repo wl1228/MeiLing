@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">出错日志</string>
+    <string name="error_message">错误信息</string>
+    <string name="restart_app">重新启用应用程序</string>
+
+</resources>

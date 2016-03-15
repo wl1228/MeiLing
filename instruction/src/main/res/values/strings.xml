@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">名匠智能</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 登录界面 -->
+    <string name="insert_code">请输入工位号</string>
+    <string name = "welcome">欢迎使用岗位操作指导书系统</string>
+    <string name="login_name">登录</string>
+
+    <!-- 等待界面 -->
+    <string name="wait_agv">等待小车到位中...</string>
+
+    <!-- 欢迎界面-->
+    <string name="scan_code">请扫描岗位二维码...</string>
+    <string name="scan_user">请扫描用户工牌...</string>
+    <string name="tip_title">数据加载</string>
+    <string name="load_data_tip">正在加载服务端数据，请稍候...</string>
+
+    <!-- 岗位指导书-->
+    <string name="post_oper_instruction">岗位作业指导书</string>
+    <string name="post_code">岗位编码:</string>
+    <string name="post_name">岗位名称:</string>
+    <string name="apply_factory">适用工厂:</string>
+    <string name="product_line">生产线:</string>
+    <string name="precaution">上岗安全须知及班后注意事项</string>
+    <string name="protect_requirement">防护要求</string>
+    <string name="industry_highlight">工艺要点</string>
+    <string name="use_tool">工具/工装</string>
+
+    <string name="oper_code">序号</string>
+    <string name="oper_description">步骤描述</string>
+    <string name="oper_photo">步骤图示</string>
+    <string name="handle_photo">操作步骤及作简图</string>
+    <string name="handle_precautions">操作注意事项</string>
+    <string name="specification">物料名称/规格</string>
+    <string name="parts_list">部件清单</string>
+
+    <!-- 大图显示信息-->
+    <string name="desc">大图展现</string>
+    <string name="before">上一张</string>
+    <string name="next">下一张</string>
+    <string name="close">关闭</string>
+    <!-- 串口扫描信息-->
+    <string name="waiting_scan">等待扫描</string>
+    <string name="scan_data">二维码信息：</string>
+
+    <!-- 岗位指导书文字指示信息-->
+    <string name="part">部 件 清 单</string>
+    <string name="protectRequirement">防 护 要 点</string>
+    <string name="industryHighlight">工 艺 要 求</string>
+    <string name="useTool">工 具 / 工 装</string>
+    <string name="precautionTtile">上岗安全须知及班前班后注意事项</string>
+    <string name="operationStap">操作步骤及作简图</string>
+</resources>

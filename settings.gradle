@@ -1,0 +1,1 @@
+include ':comapi', ':inspection', ':equipmonitor', ':instruction', ':app', ':qrcode', ':matrtials', ':spectaculars', ':logapi', ':onoffline', ':scan', ':supertoasts', ':herilyalertdialog', ':base', ':mpchartapi', ':opcuaapi', ':logshow', ':progresswheel', ':circlemenulib', ':androidbootstrap', ':CircleMenuLib', ':linestorage'

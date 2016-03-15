@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MatrtialsApplication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="material_id">物料代码：</string>
+    <string name="material_name">物料名称：</string>
+    <string name="material_count">物料数量：</string>
+    <string name="safe_stock">安全库存：</string>
+    <string name="proportion">消耗比例：</string>
+    <string name="get_more">点击取料</string>
+    <string name="use_merails">点击用料</string>
+    <string name="get_count">取料数量：</string>
+    <string name="enough">物料充足</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="add"> ＋   </string>
+    <string name="sub">   － </string>
+    <string name="start_auto_use">自动用料</string>
+    <string name="stop_auto_use">取消自动</string>
+    <string name="add5">+5</string>
+    <string name="add1">+1</string>
+    <string name="sub5">-5</string>
+    <string name="sub1">-1</string>
+
+
+    <!-- 中间库与线边库 -->
+    <string name="materialid">物料编码</string>
+    <string name="materialname">物料名称</string>
+    <string name="seat_id">库位编号</string>
+    <string name="safety_stock">安全库存数</string>
+    <string name="material_safety">是否为安全库存</string>
+    <string name="lib_number">库存数</string>
+    <string name="shortage">库存缺量</string>
+    <string name="reservoir_area">库区编号</string>
+    <string name="area_id">下料点编号</string>
+    <string name="expends">单位时间消耗量</string>
+    <string name="page_size">页面大小</string>
+    <string name="page_number">当前页码</string>
+    <string name="query">物料查询</string>
+
+    <!--一键入库-->
+    <string name="submit">入库</string>
+    <string name="out_code">出库单编号</string>
+    <string name="material_number">物料数量</string>
+    <string name="seat_code">库位编码</string>
+    <string name="submit_oper">入库操作</string>
+
+    <string-array name="page_size">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- 登录界面-->
+    <string name = "welcome">欢迎使用明匠智能系统</string>
+    <string name="scan_user">请扫描用户工牌...</string>
+</resources>

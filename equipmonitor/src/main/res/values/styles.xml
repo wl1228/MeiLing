@@ -1,0 +1,167 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.MJ.Default" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.MJ.Default.Settings">
+        <item name="android:layout_marginLeft">30sp</item>
+        <item name="android:layout_marginRight">30sp</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="login_edit_text">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">#666</item>
+    </style>
+    <style name="login_button">
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:textColor">#0f5a7d</item>
+    </style>
+    <style name="postoper_title">
+        <item name="android:background">@drawable/light_under_line</item>
+        <item name="android:textSize">@dimen/list_item_title_size</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="postoper_title_long">
+        <item name="android:background">@drawable/light_under_line_long</item>
+        <item name="android:textSize">@dimen/list_item_title_size</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="postoper_item">
+        <item name="android:textSize">@dimen/list_item_content_size</item>
+        <item name="android:background">@drawable/under_line</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="postoper_item_list">
+        <item name="android:textSize">@dimen/list_item_content_size</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="postoper_header">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/under_line</item>
+    </style>
+    <style name="equip_header_textview">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/list_item_size</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+    </style>
+    <style name="item_title">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/item_title</item>
+        <item name="android:background">@drawable/right_line</item>
+    </style>
+    <style name="item_content">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/item_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- 超声波焊接机风格属性设置-->
+    <style name="weld_static_title">
+        <item name="android:textColor">#343434</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="weld_static_content">
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="weld_dynamic_row">
+        <item name="android:paddingBottom">20dip</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:background">#f6f6ee</item>
+    </style>
+    <style name="weld_dynamic_title">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/list_item_size</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+    </style>
+    <style name="weld_dynamic_content">
+        <item name="android:textColor">#f39700</item>
+        <item name="android:background">#313c4f</item>
+        <item name="android:textSize">@dimen/list_item_size</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+    <style name="weld_dynamic_graph_row">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="weld_dynamic_graph_chart">
+        <item name="android:layout_height">500dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">#f6f6ee</item>
+    </style>
+
+
+
+    <!-- 测试数据布局-->
+    <style name="oneRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@drawable/under_line</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#343434</item>
+    </style>
+
+    <style name="twoRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/under_line</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#343434</item>
+    </style>
+
+    <style name="fourRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@drawable/under_line</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#343434</item>
+    </style>
+
+    <style name="header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+</resources>

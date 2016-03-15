@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+.
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/oper_instruction"
+        circle:name="@string/oper_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/oper_instruction" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/print_qr_code"
+        circle:name="@string/print_qr_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/print_qr_code" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/quality_inspection"
+        circle:name="@string/quality_inspection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/quality_inspection" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/equipment_monitoring"
+        circle:name="@string/equipment_monitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/equipment_monitor" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/product_monitor"
+        circle:name="@string/product_monitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/product_monitor" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/equipment_inspection"
+        circle:name="@string/line_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/line_storage" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/fixe_scan_code_gun_proof"
+        circle:name="@string/fixe_scan_code_gun_proof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/equipment_monitor" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/materials_management"
+        circle:name="@string/materials_management"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/fixe_scan_code_gun_proof" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/onoff_line"
+        circle:name="@string/onoff_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.MJ.Default.Settings"
+        android:src="@drawable/product_monitor" />
+</merge>

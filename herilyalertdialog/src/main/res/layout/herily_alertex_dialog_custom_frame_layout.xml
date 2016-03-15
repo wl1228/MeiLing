@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<!-- 使用setView(View view)方式自定义loading时, 使用此layout -->
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="15dp"
+        android:paddingTop="1dp" >
+
+        <!-- 用ProgressBar, 则padding使用8-10-8-10否则使用1-1-15-1 -->
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="12dip"
+            android:max="10000"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/customFrameLoadImg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="5dp"
+            android:background="@anim/loading_anim" />
+
+        <TextView
+            android:id="@+id/customFrameMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/customFrameLoadImg"
+            android:singleLine="true"
+            android:text="请稍等..."
+            android:textColor="@color/alertex_dlg_content_text_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

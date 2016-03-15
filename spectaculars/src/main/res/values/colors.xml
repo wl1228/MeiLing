@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <drawable name="other">#fff00f</drawable>
+    <drawable name="transparent">#fff00f</drawable>
+    <!--顶部标题布局背景颜色-->
+    <color name="title_bg">#2A303C</color>
+
+    <color name="green">#27D34D</color>
+    <color name="gray">#cccccc</color>
+    <color name="blue">#2A91BD</color>
+    <color name="dark_blue">#1900ff</color>
+    <color name="light_blue">#6666ff</color>
+    <color name="orange">#FF9D2F</color>
+    <color name="red">#FF432F</color>
+    <color name="black">#333436</color>
+
+    <!--dialog背景-->
+    <color name="white">#FFFFFF</color>
+
+    <!--list每项背景-->
+    <color name="list_item_bg">#F3F3F3</color>
+
+    <!--输入框背景颜色-->
+    <color name="input_bg">#D1D1D1</color>
+
+    <!--button背景颜色-->
+    <color name="btn_bg">#33B320</color>
+
+    <color name="mater_text_color">#6F7173</color>
+
+    <color name="text_black">#000</color>
+    <color name="light_line">#888</color>
+    <color name="dark_line">#000</color>
+    <color name="white_line">#fff</color>
+</resources>

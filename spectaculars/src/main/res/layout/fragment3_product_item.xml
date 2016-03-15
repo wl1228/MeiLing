@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--
+        订单号，计划总数量、预装，（总装、在生产数量），（交库，已完成数量），完成率  ，交货时间，交货预警，订单日计划数据-->
+    <TextView
+        android:id="@+id/fragment3_item_textview1"
+        style="@style/textview_indent_style"
+        android:text="订单号" />
+    <TextView
+        android:id="@+id/fragment3_item_textview2"
+        style="@style/textview_indent_style"
+        android:text="计划数量" />
+    <TextView
+        android:id="@+id/fragment3_item_textview3"
+        style="@style/textview_indent_style"
+        android:text="预装数量" />
+    <TextView
+        android:id="@+id/fragment3_item_textview4"
+        style="@style/textview_indent_style"
+        android:text="总装数量" />
+    <TextView
+        android:id="@+id/fragment3_item_textview5"
+        style="@style/textview_indent_style"
+        android:text="完成数量" />
+    <TextView
+        android:id="@+id/fragment3_item_textview6"
+        style="@style/textview_indent_style"
+        android:text="完成率" />
+    <ProgressBar
+        android:id="@+id/fragment3_item_progressBar"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        style="@style/StyleProgressBarMini"
+        android:layout_gravity="center_vertical"
+        android:text="完成情况" />
+</LinearLayout>

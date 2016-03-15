@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OnOffLine</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 下线原因提示-->
+    <string name="off_line_reson">执行线操作时，请输入下线原因！</string>
+
+    <string name="on_line_btn">上线操作</string>
+    <string name="off_line_btn">下线操作</string>
+
+    <string name="on_line">上线</string>
+    <string name="off_line">下线</string>
+    <string name="submit">执行上下线操作</string>
+    <string name="serial_number">生产流水号:</string>
+    <string name="order_id">订单号:</string>
+    <string name="operation">岗位类型:</string>
+    <string name="post_code">岗位编码:</string>
+    <string name="person">操作员:</string>
+    <string name="reason">下线原因:</string>
+
+    <string-array name="operation">
+        <item>上线</item>
+        <item>下线 </item>
+    </string-array>
+
+</resources>
